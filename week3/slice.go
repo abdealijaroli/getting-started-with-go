@@ -12,7 +12,7 @@ func main() {
 		_, err := fmt.Scanf("%d", &i)
 		if err != nil {
 			return
-		}
+		}  
 		slice = append(slice, i)
 		sort.Slice(slice, func(i, j int) bool {
 			return slice[i] < slice[j]
